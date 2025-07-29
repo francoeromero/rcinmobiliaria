@@ -33,7 +33,7 @@ const PropertyModal = ({ property, isOpen, onClose }) => {
               alt={property.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute top-4 right-4 bg-gradient-to-r from-red-600 to-purple-600 text-black px-4 py-2 rounded-full font-semibold">
+            <div className="absolute top-4 right-4 bg-gradient-to-r from-red-600 to-red-600 text-black px-4 py-2 rounded-full font-semibold">
               ${property.price?.toLocaleString()}
             </div>
           </div>
@@ -83,9 +83,18 @@ const PropertyModal = ({ property, isOpen, onClose }) => {
             >
               Cerrar
             </button>
+
+                <a
+                  href="https://wa.me/541151487328"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  
+                >
+
             <button className="btn-primary">
               Contactar Agente
             </button>
+                </a>
           </div>
         </div>
       </motion.div>

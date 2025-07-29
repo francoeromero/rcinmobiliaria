@@ -51,7 +51,7 @@ const Footer = () => {
       
       {/* Franja superior con logo y texto */}
       <div className="bg-white/0 backdrop-blur-sm py-8 flex flex-col items-center justify-center">
-        <img src="https://github.com/francoeromero/catalogo_inmobiliaria/blob/main/img/5.png?raw=true" alt="DIC Logo" className="w-32 h-auto mb-2" />
+        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhR2q-QDjjZ-vVaE9lHtZ9Uv2XFR2T_IAESj811Z5RGt8GzAtVDZihWF8p6B8nZGZsfYdUdkl-F-ArhZ24q0v5aC3cFREiZhMO-L29dc3kYBXe2XZXxc546qC4owpUckuG9MFNwZMpcVm4ESyPQUr8oS5zVxH7kdv6FkyweTjmDqoT2iZPMuVPDlXk0vozb" alt="DIC Logo" className="w-32 h-auto mb-2" />
         {/* <span className="text-sm tracking-widest text-gray-500 mb-4">PROPIEDADES</span> */}
 
         {/* Íconos de redes sociales */}

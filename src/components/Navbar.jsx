@@ -27,7 +27,7 @@ const Navbar = () => {
             <div style={{ width: '82px', height: '82px' }}  className=" bg-white-lg flex items-center justify-center">
               {/* icono */}
               {/* <Home className="w-5 h-5 text-white" />  */}
-              <img src="https://github.com/francoeromero/catalogo_inmobiliaria/blob/main/img/logo_card.png?raw=true" alt="Logo" className="w-19 h-15" />
+              <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhR2q-QDjjZ-vVaE9lHtZ9Uv2XFR2T_IAESj811Z5RGt8GzAtVDZihWF8p6B8nZGZsfYdUdkl-F-ArhZ24q0v5aC3cFREiZhMO-L29dc3kYBXe2XZXxc546qC4owpUckuG9MFNwZMpcVm4ESyPQUr8oS5zVxH7kdv6FkyweTjmDqoT2iZPMuVPDlXk0vozb" alt="Logo" className="w-19 h-15" />
             </div>
             {/* <span className="text-lg md:text-xl font-bold text-gray-500">RC PROPIEDADES</span> */}
           </Link>

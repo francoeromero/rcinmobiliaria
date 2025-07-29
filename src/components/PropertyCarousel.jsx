@@ -61,7 +61,7 @@ const PropertyCarousel = ({ properties }) => {
             
             <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-8">
               <div className="max-w-2xl">
-                <div className="property-badge mb-2 sm:mb-4">
+                <div className="property-badge mb-2 sm:mb-4 -mt-32">
                   ${properties[currentIndex].price?.toLocaleString()}
                 </div>
                 

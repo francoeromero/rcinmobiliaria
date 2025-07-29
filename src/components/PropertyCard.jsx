@@ -3,7 +3,14 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Bed, Bath, Square, Tag } from 'lucide-react';
 
+
+
+
 const PropertyCard = ({ property, onClick }) => {
+
+
+
+
   return (
     <motion.div
       className="property-card cursor-pointer"
@@ -19,6 +26,11 @@ const PropertyCard = ({ property, onClick }) => {
           alt={property.title}
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
         />
+  
+        
+
+
+
         <div className="property-badge">
           ${property.price?.toLocaleString()}
         </div>
