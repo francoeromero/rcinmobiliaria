@@ -206,11 +206,11 @@ const PropertyForm = ({ property, isOpen, onClose, onSave }) => {
                 onChange={handleChange}
                 className="form-input"
               >
-                <option value="Casa" className="bg-slate-800">Casa</option>
-                <option value="Apartamento" className="bg-slate-800">Apartamento</option>
-                <option value="Villa" className="bg-slate-800">Villa</option>
-                <option value="Penthouse" className="bg-slate-800">Penthouse</option>
-                <option value="Estudio" className="bg-slate-800">Estudio</option>
+                <option value="Casa" >Casa</option>
+                <option value="Apartamento" >Apartamento</option>
+                {/* <option value="Villa" >Villa</option>
+                <option value="Penthouse" >Penthouse</option> */}
+                <option value="Estudio" >Local</option>
               </select>
             </div>
 
