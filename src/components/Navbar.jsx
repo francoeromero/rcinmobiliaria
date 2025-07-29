@@ -15,7 +15,7 @@ const Navbar = () => {
     { path: '/propiedades', label: 'PROPIEDADES', icon: Grid3X3 },
     { path: '/nosotros', label: 'NOSOTROS', icon: Users },
     { path: '/contacto', label: 'CONTACTO', icon: Phone },
-    { path: '/admin', label: 'ADMIN', icon: Settings }
+    // { path: '/admin', label: 'ADMIN', icon: Settings }
   ];
 
   return (

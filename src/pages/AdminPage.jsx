@@ -10,6 +10,21 @@ import { getProperties, addProperty, updateProperty, deleteProperty } from '@/ut
 import { useToast } from '@/components/ui/use-toast';
 
 const AdminPage = () => {
+
+  const [isAuthorized, setIsAuthorized] = useState(() => {
+    const password = prompt("Ingrese la contraseña para acceder:");
+    if (password !== import.meta.env.VITE_ADMIN_PASSWORD) {
+      alert("Contraseña incorrecta. Redirigiendo...");
+      window.location.href = "/";
+      return false; 
+    }
+    return true;
+  });
+
+  if (!isAuthorized) return null;
+
+
+
   const { toast } = useToast();
   const [properties, setProperties] = useState([]);
   const [filteredProperties, setFilteredProperties] = useState([]);
