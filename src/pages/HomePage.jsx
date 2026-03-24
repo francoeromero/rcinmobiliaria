@@ -172,7 +172,7 @@ useEffect(() => {
 
         {/* Contenido */}
         <div className="space-y-6 text-black/70 text-base sm:text-lg leading-relaxed">
-          <p>
+          <p className="first-letter:text-xl ">
             En CY Desarrollos Inmobiliarios nos comprometemos diariamente a ofrecer soluciones de la más alta calidad, mediante la selección de materiales de primeras marcas, la supervisión rigurosa de cada proceso constructivo y la mejora continua de nuestros diseños en cada proyecto.
           </p>
           <p>
