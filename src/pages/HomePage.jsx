@@ -84,7 +84,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Inicio - RC PROPIEDADES</title>
+        <title>Inicio - CY Desarrollos Inmobiliarios</title>
         <meta name="description" content="Descubre las mejores propiedades inmobiliarias en nuestra plataforma. Casas, apartamentos y más con los mejores precios." />
       </Helmet>
 
@@ -100,7 +100,7 @@ useEffect(() => {
     muted
     playsInline
   >
-    <source src="https://github.com/francoeromero/rcinmobiliaria/blob/main/video/clip.mp4" type="video/mp4" />
+    <source src="/clip.mp4" type="video/mp4" />
     Tu navegador no soporta HTML5 video.
   </video>
 
@@ -116,7 +116,7 @@ useEffect(() => {
       transition={{ duration: 0.8 }}
     >
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4">
-        Encuentra tu <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-400">Hogar Perfecto </span>
+        Encuentra tu <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-300">Hogar Perfecto </span>
       </h1>
       <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto">
         Descubre las mejores propiedades inmobiliarias con nuestra plataforma avanzada de búsqueda y gestión.
@@ -132,7 +132,7 @@ useEffect(() => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <stat.icon className="w-6 h-6 sm:w-8 sm:h-8 text-red-400 mx-auto mb-2" />
+            <stat.icon className="w-6 h-6 sm:w-8 sm:h-8 text-amber-400 mx-auto mb-2" />
             <div className="text-xl sm:text-2xl font-bold text-white">{stat.value}</div>
             <div className="text-white/60 text-xs sm:text-sm">{stat.label}</div>
           </motion.div>
@@ -142,6 +142,57 @@ useEffect(() => {
   </div>
 </section>
 
+{/* SECCIÓN SOBRE NOSOTROS */}
+<section className="py-16">
+  <div className="container mx-auto px-4 sm:px-6">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+      className="max-w-4xl mx-auto"
+    >
+      {/* Contenedor con glass effect y borde dorado */}
+      <div className="glass-effect rounded-2xl p-8 sm:p-12 border-2 border-amber-400/50 shadow-lg">
+        {/* Línea decorativa superior */}
+        <div className="flex items-center justify-center mb-8">
+          <div className="h-1 w-12 bg-gradient-to-r from-transparent to-amber-400"></div>
+          <div className="h-3 w-3 bg-amber-400 rounded-full mx-4"></div>
+          <div className="h-1 w-12 bg-gradient-to-l from-transparent to-amber-400"></div>
+        </div>
+
+        {/* Título con color dorado */}
+        <h2 className="text-4xl sm:text-5xl font-bold text-center mb-2">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-300">
+            CY Desarrollos Inmobiliarios
+          </span>
+        </h2>
+
+        {/* Línea divisoria */}
+        <div className="h-1 w-16 bg-gradient-to-r from-amber-400 to-amber-300 mx-auto mb-10"></div>
+
+        {/* Contenido */}
+        <div className="space-y-6 text-black/70 text-base sm:text-lg leading-relaxed">
+          <p className="first-letter:text-xl ">
+            En CY Desarrollos Inmobiliarios nos comprometemos diariamente a ofrecer soluciones de la más alta calidad, mediante la selección de materiales de primeras marcas, la supervisión rigurosa de cada proceso constructivo y la mejora continua de nuestros diseños en cada proyecto.
+          </p>
+          <p>
+            Disponemos de amplias opciones de financiación, orientadas a facilitar el acceso a la primera vivienda para cada familia.
+          </p>
+          <p>
+            Brindamos acompañamiento integral en todas las etapas del proceso, con profesionalismo, compromiso y experiencia.
+          </p>
+        </div>
+
+        {/* Línea decorativa inferior */}
+        <div className="flex items-center justify-center mt-8">
+          <div className="h-1 w-12 bg-gradient-to-r from-transparent to-amber-400"></div>
+          <div className="h-3 w-3 bg-amber-400 rounded-full mx-4"></div>
+          <div className="h-1 w-12 bg-gradient-to-l from-transparent to-amber-400"></div>
+        </div>
+      </div>
+    </motion.div>
+  </div>
+</section>
 
 
 

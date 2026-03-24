@@ -33,7 +33,7 @@
 }
 
 body {
-  @apply bg-gradient-to-br from-slate-200 via-gray-50 to-red-100 text-white min-h-screen;
+  @apply bg-gradient-to-br from-slate-200 via-gray-50 to-amber-50 text-white min-h-screen;
   font-family: 'Inter', sans-serif;
 }
 
@@ -57,11 +57,11 @@ body {
 }
 
 .filter-input {
-  @apply glass-effect rounded-lg px-4 py-2 text-gray-900 placeholder-gray-500 border-gray-300 focus:border-orange-500 focus:outline-none w-full;
+  @apply glass-effect rounded-lg px-4 py-2 text-gray-900 placeholder-gray-500 border-gray-300 focus:border-amber-500 focus:outline-none w-full;
 }
 
 .btn-primary {
-  @apply bg-gradient-to-r from-red-600 to-red-500 hover:from-red-700 hover:to-red-600 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105;
+  @apply bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-2 px-6 rounded-lg transition-all duration-300 transform hover:scale-105;
 }
 
 .btn-secondary {
@@ -69,15 +69,15 @@ body {
 }
 
 .btn-danger {
-  @apply bg-gradient-to-r from-red-700 to-red-600 hover:from-red-800 hover:to-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300;
+  @apply bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-700 hover:to-amber-600 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300;
 }
 
 .btn-success {
-  @apply bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300;
+  @apply bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-white font-semibold py-2 px-4 rounded-lg transition-all duration-300;
 }
 
 .form-input {
-  @apply glass-effect rounded-lg px-4 py-3 text-gray-900 placeholder-gray-500 border-gray-300 focus:border-orange-500 focus:outline-none w-full;
+  @apply glass-effect rounded-lg px-4 py-3 text-gray-900 placeholder-gray-500 border-gray-300 focus:border-amber-500 focus:outline-none w-full;
 }
 
 .modal-overlay {
@@ -113,11 +113,11 @@ body {
 }
 
 .hero-bg {
-  @apply absolute inset-0 bg-gradient-to-r from-red-400/20 to-orange-400/20;
+  @apply absolute inset-0 bg-gradient-to-r from-amber-400/20 to-yellow-400/20;
 }
 
 .property-badge {
-  @apply absolute top-4 right-4 bg-gradient-to-r from-red-800 to-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold;
+  @apply absolute top-4 right-4 bg-gradient-to-r from-amber-700 to-amber-500 text-white px-3 py-1 rounded-full text-sm font-semibold;
 }
 
 .search-container {
@@ -133,11 +133,11 @@ body {
 }
 
 .carousel-dot {
-  @apply w-2 h-2 md:w-3 md:h-3 rounded-full bg-gray-400/50 hover:bg-red-600/80 transition-all duration-300 cursor-pointer;
+  @apply w-2 h-2 md:w-3 md:h-3 rounded-full bg-gray-400/50 hover:bg-amber-500/80 transition-all duration-300 cursor-pointer;
 }
 
 .carousel-dot.active {
-  @apply bg-red-600;
+  @apply bg-amber-500;
 }
 
 

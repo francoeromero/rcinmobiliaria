@@ -72,7 +72,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen py-8">
       <Helmet>
-        <title>Propiedades en Alquiler - RC PROPIEDADES</title>
+        <title>Propiedades en Alquiler - CY Desarrollos Inmobiliarios</title>
         <meta name="description" content="Explora todas nuestras propiedades en alquiler. Encuentra el apartamento o casa perfecta para rentar." />
       </Helmet>
 

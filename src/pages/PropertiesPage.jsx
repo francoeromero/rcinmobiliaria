@@ -75,7 +75,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen py-8">
       <Helmet>
-        <title>Todas las Propiedades - RC PROPIEDADES</title>
+        <title>Todas las Propiedades - CY Desarrollos Inmobiliarios</title>
         <meta name="description" content="Explora todas nuestras propiedades disponibles. Usa nuestros filtros avanzados para encontrar exactamente lo que buscas." />
       </Helmet>
 

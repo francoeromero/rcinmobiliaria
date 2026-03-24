@@ -19,7 +19,7 @@ const Navbar = () => {
   ];
 
   return (
-  <nav style={{ borderBottom: '2px solid red' }} className="navbar py-1">
+  <nav style={{ borderBottom: '2px solid #f59e0b' }} className="navbar py-1">
 
       <div className="container mx-auto px-4 sm:px-6 py-3">
         <div className="flex items-center justify-between">
@@ -27,7 +27,7 @@ const Navbar = () => {
             <div style={{ width: '82px', height: '82px' }}  className=" bg-white-lg flex items-center justify-center">
               {/* icono */}
               {/* <Home className="w-5 h-5 text-white" />  */}
-              <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhR2q-QDjjZ-vVaE9lHtZ9Uv2XFR2T_IAESj811Z5RGt8GzAtVDZihWF8p6B8nZGZsfYdUdkl-F-ArhZ24q0v5aC3cFREiZhMO-L29dc3kYBXe2XZXxc546qC4owpUckuG9MFNwZMpcVm4ESyPQUr8oS5zVxH7kdv6FkyweTjmDqoT2iZPMuVPDlXk0vozb" alt="Logo" className="w-19 h-15" />
+              <img src="/img/logo_nuevo.png" alt="Logo CY Desarrollos" className="w-19 h-15" />
             </div>
             {/* <span className="text-lg md:text-xl font-bold text-gray-500">RC PROPIEDADES</span> */}
           </Link>
@@ -55,7 +55,7 @@ const Navbar = () => {
                   
                   {isActive && (
                     <motion.div
-                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-red-400 to-red-400"
+                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-amber-400 to-amber-400"
                       layoutId="activeTab"
                       initial={false}
                       transition={{ type: "spring", stiffness: 500, damping: 30 }}
@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
 
           <div className="xl:hidden">
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-red-500 p-2">
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-amber-500 p-2">
               {isMenuOpen ? <X size={24} /> : <Menu size={30} />}
             </button>
           </div>

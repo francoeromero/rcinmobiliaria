@@ -32,15 +32,14 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: Mail, label: 'info@rcpropiedades.com' },
+    { icon: Mail, label: 'cydesarrollosinmobiliarios@gmail.com' },
     { icon: Phone, label: '+54 11 5148-7328' },
-    { icon: Phone, label: '+54 11 5376 7216' },
     { icon: MapPin, label: 'Buenos Aires, Argentina' }
   ];
 
   const socialIcons = [
-    { icon: Instagram, link: 'https://www.instagram.com/estudio__rc/' },
-    { icon: Facebook, link: 'https://www.facebook.com/estudioRC.ArqyDesarrollos' },
+    // { icon: Instagram, link: 'https://www.instagram.com/estudio__rc/' },
+    // { icon: Facebook, link: 'https://www.facebook.com/estudioRC.ArqyDesarrollos' },
     { icon: Linkedin, link: '#' },
     // { icon: Twitter, link: '#' },
     // { icon: Youtube, link: '#' }
@@ -51,7 +50,7 @@ const Footer = () => {
       
       {/* Franja superior con logo y texto */}
       <div className="bg-white/0 backdrop-blur-sm py-8 flex flex-col items-center justify-center">
-        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEhR2q-QDjjZ-vVaE9lHtZ9Uv2XFR2T_IAESj811Z5RGt8GzAtVDZihWF8p6B8nZGZsfYdUdkl-F-ArhZ24q0v5aC3cFREiZhMO-L29dc3kYBXe2XZXxc546qC4owpUckuG9MFNwZMpcVm4ESyPQUr8oS5zVxH7kdv6FkyweTjmDqoT2iZPMuVPDlXk0vozb" alt="DIC Logo" className="w-32 h-auto mb-2" />
+        <img src="/img/logo_nuevo.png" alt="Logo CY Desarrollos" className="w-32 h-auto mb-2" />
         {/* <span className="text-sm tracking-widest text-gray-500 mb-4">PROPIEDADES</span> */}
 
         {/* Íconos de redes sociales */}
@@ -77,11 +76,11 @@ const Footer = () => {
           >
             <Link to="/" className="flex items-center justify-center md:justify-start space-x-2 mb-4">
               <div className="w-16 h-16 bg-white rounded-lg flex items-center justify-center">
-                <img src="https://github.com/francoeromero/catalogo_inmobiliaria/blob/main/img/logo_card.png?raw=true" alt="Logo" className="w-12" />
+                <img src="/img/logo_nuevo.png" alt="Logo CY Desarrollos" className="w-12" />
               </div>
             </Link>
             <p className="text-black/70 text-sm max-w-xs mx-auto md:mx-0">
-              Tu plataforma de confianza para encontrar la propiedad perfecta. Calidad, transparencia y excelencia en cada transacción.
+              CY Desarrollos Inmobiliarios: soluciones de calidad superior, materiales de primeras marcas y financiación accesible para tu vivienda.
             </p>
           </motion.div>
 
@@ -143,7 +142,7 @@ const Footer = () => {
           className="border-t border-black/20 mt-8 pt-6 text-center"
         >
           <p className="text-black/60 text-sm">
-            © {currentYear} RC PROPIEDADES. Todos los derechos reservados.
+            © {currentYear} CY Desarrollos Inmobiliarios. Todos los derechos reservados.
           </p>
         </motion.div>
       </div>

@@ -43,8 +43,8 @@ const PropertyCard = ({ property, onClick }) => {
             <div className="flex items-center gap-2">
               <span className={`text-white font-semibold text-sm px-2 py-1 rounded ${
                 property.operation === 'Venta' 
-                  ? 'bg-red-600/80' 
-                  : 'bg-red-600/80'
+                  ? 'bg-amber-500/80' 
+                  : 'bg-amber-500/80'
               }`}>
                 {property.operation}
               </span>
@@ -79,7 +79,7 @@ const PropertyCard = ({ property, onClick }) => {
     </span>
 
     {property.acceptsSquareMeters === 'Sí' && (
-      <span className="text-xs bg-red-100 text-black-800 px-2 py-0.5 rounded">
+      <span className="text-xs bg-amber-100 text-black-800 px-2 py-0.5 rounded">
         Acepta m²
       </span>
     )}

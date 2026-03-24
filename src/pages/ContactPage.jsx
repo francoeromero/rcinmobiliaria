@@ -15,9 +15,9 @@ const ContactPage = () => {
   });
 
   const contactInfo = [
-    { icon: Phone, title: 'Teléfono', details: ['+54 11 5148-7328', '+54 11 5376 7216'], color: 'text-blue-400' },
-    { icon: Mail, title: 'Email', details: ['info@rcpropiedades.com', 'estudiorc.proyectoyobras@gmail.com '], color: 'text-green-400' },
-    { icon: MapPin, title: 'Dirección', details: ['Dorrego 2486', 'Buenos Aires, Argentina'], color: 'text-purple-400' },
+    { icon: Phone, title: 'Teléfono', details: ['+54 11 5148-7328'], color: 'text-blue-400' },
+    { icon: Mail, title: 'Email', details: ['cydesarrollosinmobiliarios@gmail.com'], color: 'text-green-400' },
+    { icon: MapPin, title: 'Dirección', details: ['Buenos Aires, Argentina'], color: 'text-purple-400' },
     { icon: Clock, title: 'Horarios', details: ['Lun - Vie: 9:00 AM - 6:00 PM', 'Sáb: 9:00 AM - 2:00 PM'], color: 'text-yellow-400' }
   ];
 
@@ -38,8 +38,8 @@ const ContactPage = () => {
   return (
     <div className="min-h-screen py-8">
       <Helmet>
-        <title>Contacto - RC PROPIEDADES</title>
-        <meta name="description" content="Ponte en contacto con RC PROPIEDADES. Estamos aquí para ayudarte a encontrar la propiedad perfecta." />
+        <title>Contacto - CY Desarrollos Inmobiliarios</title>
+        <meta name="description" content="Ponte en contacto con CY Desarrollos Inmobiliarios. Estamos aquí para ayudarte a encontrar la propiedad perfecta." />
       </Helmet>
 
       <div className="container mx-auto px-4 sm:px-6 max-w-6xl">

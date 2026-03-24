@@ -82,8 +82,8 @@ const SearchResultsCarousel = ({ properties, onPropertyClick }) => {
                       {property.operation && (
                         <span className={`text-white font-semibold text-sm px-2 py-1 rounded ${
                           property.operation === 'Venta' 
-                            ? 'bg-red-600/80' 
-                            : 'bg-red-600/80'
+                            ? 'bg-amber-500/80' 
+                            : 'bg-amber-500/80'
                         }`}>
                           {property.operation}
                         </span>
@@ -110,7 +110,7 @@ const SearchResultsCarousel = ({ properties, onPropertyClick }) => {
                   </span>
 
                   {property.acceptsSquareMeters === 'Sí' && (
-                    <span className="text-xs bg-red-100 text-black-800 px-2 py-0.5 rounded">
+                    <span className="text-xs bg-amber-100 text-black-800 px-2 py-0.5 rounded">
                       Acepta m²
                     </span>
                   )}

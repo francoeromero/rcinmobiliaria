@@ -33,7 +33,7 @@ const PropertyModal = ({ property, isOpen, onClose }) => {
               alt={property.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute top-4 right-4 bg-gradient-to-r from-red-600 to-red-600 text-black px-4 py-2 rounded-full font-semibold">
+            <div className="absolute top-4 right-4 bg-gradient-to-r from-amber-500 to-amber-500 text-black px-4 py-2 rounded-full font-semibold">
               ${property.price?.toLocaleString()}
             </div>
           </div>
@@ -48,22 +48,22 @@ const PropertyModal = ({ property, isOpen, onClose }) => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="glass-effect rounded-lg p-4 text-center">
-              <Bed className="w-6 h-6 text-red-400 mx-auto mb-2" />
+              <Bed className="w-6 h-6 text-amber-400 mx-auto mb-2" />
               <div className="text-black font-semibold">{property.bedrooms}</div>
               <div className="text-black/60 text-sm">Habitaciones</div>
             </div>
             <div className="glass-effect rounded-lg p-4 text-center">
-              <Bath className="w-6 h-6 text-red-400 mx-auto mb-2" />
+              <Bath className="w-6 h-6 text-amber-400 mx-auto mb-2" />
               <div className="text-black font-semibold">{property.bathrooms}</div>
               <div className="text-black/60 text-sm">Baños</div>
             </div>
             <div className="glass-effect rounded-lg p-4 text-center">
-              <Square className="w-6 h-6 text-red-400 mx-auto mb-2" />
+              <Square className="w-6 h-6 text-amber-400 mx-auto mb-2" />
               <div className="text-black font-semibold">{property.area}m²</div>
               <div className="text-black/60 text-sm">Área</div>
             </div>
             <div className="glass-effect rounded-lg p-4 text-center">
-              <DollarSign className="w-6 h-6 text-red-400 mx-auto mb-2" />
+              <DollarSign className="w-6 h-6 text-amber-400 mx-auto mb-2" />
               <div className="text-black font-semibold">{property.type}</div>
               <div className="text-black/60 text-sm">Tipo</div>
             </div>

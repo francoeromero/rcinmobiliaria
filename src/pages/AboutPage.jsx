@@ -33,8 +33,8 @@ const AboutPage = () => {
   return (
     <div className="min-h-screen py-8">
       <Helmet>
-        <title>Nosotros - RC PROPIEDADES</title>
-        <meta name="description" content="Conoce más sobre RC PROPIEDADES, nuestra historia, valores y compromiso con la excelencia en el sector inmobiliario." />
+        <title>Nosotros - CY Desarrollos Inmobiliarios</title>
+        <meta name="description" content="Conoce más sobre CY Desarrollos Inmobiliarios, nuestra historia, valores y compromiso con la excelencia en el sector inmobiliario." />
       </Helmet>
 
       <div className="container mx-auto px-4 sm:px-6">
@@ -45,13 +45,13 @@ const AboutPage = () => {
           transition={{ duration: 0.6 }}
         >
           <div className="flex items-center justify-center mb-4">
-            <Users className="w-8 h-8 text-red-400 mr-3" />
+            <Users className="w-8 h-8 text-amber-400 mr-3" />
             <h1 className="text-3xl sm:text-4xl font-bold text-black/70">
               Nosotros
             </h1>
           </div>
           <p className="text-black/70 text-base sm:text-lg max-w-3xl mx-auto">
-            Somos una empresa líder en el sector inmobiliario, comprometida con brindar el mejor servicio y encontrar la propiedad perfecta para cada cliente.
+            En CY Desarrollos Inmobiliarios nos comprometemos diariamente a ofrecer soluciones de la más alta calidad en cada proyecto inmobiliario.
           </p>
         </motion.div>
 
@@ -78,7 +78,7 @@ const AboutPage = () => {
               <div className="relative">
                 <img  
                   className="w-full h-64 object-cover rounded-xl"
-                  alt="Equipo de RC PROPIEDADES trabajando en oficina moderna"
+                  alt="Equipo de CY Desarrollos Inmobiliarios trabajando en oficina moderna"
                  src="https://images.unsplash.com/photo-1636373466162-330695a2af88" />
               </div>
             </div>

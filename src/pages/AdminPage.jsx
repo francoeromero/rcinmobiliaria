@@ -135,7 +135,7 @@ const handleDeleteProperty = async (propertyId) => {
   return (
     <div className="min-h-screen py-8">
       <Helmet>
-        <title>Panel de Administración - RC PROPIEDADES</title>
+        <title>Panel de Administración - CY Desarrollos Inmobiliarios</title>
         <meta name="description" content="Panel administrativo para gestionar propiedades. Crear, editar, eliminar y administrar todas las propiedades del sistema." />
       </Helmet>
 

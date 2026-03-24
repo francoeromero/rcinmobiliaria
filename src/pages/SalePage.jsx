@@ -72,7 +72,7 @@ useEffect(() => {
   return (
     <div className="min-h-screen py-8">
       <Helmet>
-        <title>Propiedades en Venta - RC PROPIEDADES</title>
+        <title>Propiedades en Venta - CY Desarrollos Inmobiliarios</title>
         <meta name="description" content="Explora todas nuestras propiedades en venta. Encuentra la casa o apartamento perfecto para comprar." />
       </Helmet>
 
@@ -84,7 +84,7 @@ useEffect(() => {
           transition={{ duration: 0.6 }}
         >
           <div className="flex items-center justify-center mb-4">
-            <ShoppingCart className="w-8 h-8 text-red-400 mr-3" />
+            <ShoppingCart className="w-8 h-8 text-amber-400 mr-3" />
             <h1 className="text-3xl sm:text-4xl font-bold text-black/70">
               Propiedades en Venta
             </h1>
